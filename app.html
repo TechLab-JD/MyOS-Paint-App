@@ -1,0 +1,18 @@
+<div class="app-window" id="PaintApp">
+  <div class="app-header">
+    <span class="app-title">🎨 Paint</span>
+    <div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div>
+  </div>
+  <div class="app-content">
+    <div class="paint">
+      <div class="paint-tools">
+        <input id="pt-color" type="color" value="#4a90e2" title="Color">
+        <input id="pt-size" type="range" min="1" max="40" value="6" title="Brush size">
+        <button id="pt-clear">Clear</button>
+        <button id="pt-save">Save PNG</button>
+      </div>
+      <canvas id="pt-canvas" width="520" height="340"></canvas>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>
